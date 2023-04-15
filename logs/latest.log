@@ -1,0 +1,156 @@
+[03:13:05] [main/INFO]: Loading Minecraft 1.19.4 with Fabric Loader 0.14.19
+[03:13:05] [main/INFO]: Loading 71 mods:
+	- bluemap 3.13
+	- c2me 0.2.0+alpha.10.49
+	   |-- c2me-base 0.2.0+alpha.10.49
+	   |-- c2me-client-uncapvd 0.2.0+alpha.10.49
+	   |-- c2me-fixes-chunkio-threading-issues 0.2.0+alpha.10.49
+	   |-- c2me-fixes-general-threading-issues 0.2.0+alpha.10.49
+	   |-- c2me-fixes-worldgen-threading-issues 0.2.0+alpha.10.49
+	   |-- c2me-fixes-worldgen-vanilla-bugs 0.2.0+alpha.10.49
+	   |-- c2me-notickvd 0.2.0+alpha.10.49
+	   |-- c2me-opts-allocs 0.2.0+alpha.10.49
+	   |-- c2me-opts-chunk-access 0.2.0+alpha.10.49
+	   |-- c2me-opts-chunkio 0.2.0+alpha.10.49
+	   |-- c2me-opts-math 0.2.0+alpha.10.49
+	   |-- c2me-opts-scheduling 0.2.0+alpha.10.49
+	   |-- c2me-opts-worldgen-general 0.2.0+alpha.10.49
+	   |-- c2me-opts-worldgen-vanilla 0.2.0+alpha.10.49
+	   |-- c2me-rewrites-chunkio 0.2.0+alpha.10.49
+	   |-- c2me-server-utils 0.2.0+alpha.10.49
+	   |-- c2me-threading-chunkio 0.2.0+alpha.10.49
+	   |-- c2me-threading-lighting 0.2.0+alpha.10.49
+	   |-- c2me-threading-worldgen 0.2.0+alpha.10.49
+	   |-- com_electronwill_night-config_core 3.6.5
+	   |-- com_electronwill_night-config_toml 3.6.5
+	   |-- com_github_llamalad7_mixinextras 0.1.1
+	   |-- com_ibm_async_asyncutil 0.1.0
+	   |-- net_objecthunter_exp4j 0.4.8
+	   \-- org_threadly_threadly 7.0
+	- fabric-api 0.78.0+1.19.4
+	   |-- fabric-api-base 0.4.23+9ff28bcef4
+	   |-- fabric-api-lookup-api-v1 1.6.24+49abcf7ef4
+	   |-- fabric-biome-api-v1 13.0.6+348a9c64f4
+	   |-- fabric-block-api-v1 1.0.5+e022e5d1f4
+	   |-- fabric-blockrenderlayer-v1 1.1.33+c2e6f674f4
+	   |-- fabric-client-tags-api-v1 1.0.14+1134c5b8f4
+	   |-- fabric-command-api-v1 1.2.26+f71b366ff4
+	   |-- fabric-command-api-v2 2.2.5+e719b857f4
+	   |-- fabric-commands-v0 0.2.43+df3654b3f4
+	   |-- fabric-containers-v0 0.1.53+df3654b3f4
+	   |-- fabric-content-registries-v0 3.5.8+ae0966baf4
+	   |-- fabric-convention-tags-v1 1.4.0+9a7c5daaf4
+	   |-- fabric-crash-report-info-v1 0.2.14+aeb40ebef4
+	   |-- fabric-data-generation-api-v1 11.3.7+5da15ca1f4
+	   |-- fabric-dimensions-v1 2.1.44+7f87f8faf4
+	   |-- fabric-entity-events-v1 1.5.12+e45f7c65f4
+	   |-- fabric-events-interaction-v0 0.4.42+a1ccd7bff4
+	   |-- fabric-events-lifecycle-v0 0.2.51+df3654b3f4
+	   |-- fabric-game-rule-api-v1 1.0.32+a1ccd7bff4
+	   |-- fabric-item-api-v1 2.1.16+09a3510cf4
+	   |-- fabric-item-group-api-v1 3.0.4+043f9acff4
+	   |-- fabric-key-binding-api-v1 1.0.32+c477957ef4
+	   |-- fabric-keybindings-v0 0.2.30+df3654b3f4
+	   |-- fabric-lifecycle-events-v1 2.2.14+5da15ca1f4
+	   |-- fabric-loot-api-v2 1.1.26+75e98211f4
+	   |-- fabric-loot-tables-v1 1.1.30+9e7660c6f4
+	   |-- fabric-message-api-v1 5.1.0+1ee8be40f4
+	   |-- fabric-mining-level-api-v1 2.1.38+49abcf7ef4
+	   |-- fabric-models-v0 0.3.29+11ba9c3bf4
+	   |-- fabric-networking-api-v1 1.3.0+a6f3ccfaf4
+	   |-- fabric-networking-v0 0.3.40+df3654b3f4
+	   |-- fabric-object-builder-api-v1 7.0.2+63b515f4f4
+	   |-- fabric-particles-v1 1.0.22+f1e4495bf4
+	   |-- fabric-recipe-api-v1 1.0.7+a1ccd7bff4
+	   |-- fabric-registry-sync-v0 2.1.3+a383ab97f4
+	   |-- fabric-renderer-api-v1 2.2.4+81e8c576f4
+	   |-- fabric-renderer-indigo 1.1.0+81e8c576f4
+	   |-- fabric-renderer-registries-v1 3.2.37+df3654b3f4
+	   |-- fabric-rendering-data-attachment-v1 0.3.27+afca2f3ef4
+	   |-- fabric-rendering-fluids-v1 3.0.20+f1e4495bf4
+	   |-- fabric-rendering-v0 1.1.40+df3654b3f4
+	   |-- fabric-rendering-v1 2.1.0+8f878217f4
+	   |-- fabric-resource-conditions-api-v1 2.3.0+e6c7d4eef4
+	   |-- fabric-resource-loader-v0 0.11.1+1e1fb126f4
+	   |-- fabric-screen-api-v1 1.0.44+8c25edb4f4
+	   |-- fabric-screen-handler-api-v1 1.3.19+5da15ca1f4
+	   |-- fabric-sound-api-v1 1.0.8+75e98211f4
+	   |-- fabric-transfer-api-v1 3.1.0+d51205dbf4
+	   \-- fabric-transitive-access-wideners-v1 3.0.2+63b515f4f4
+	- fabricloader 0.14.19
+	- java 17
+	- krypton 0.2.2
+	   \-- com_velocitypowered_velocity-native 3.2.0-SNAPSHOT
+	- lithium 0.11.1
+	- minecraft 1.19.4
+	- starlight 1.1.1+fabric.ae22326
+[03:13:05] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/var/lib/pufferpanel/servers/d1186231/libraries/net/fabricmc/sponge-mixin/0.12.4+mixin.0.8.5/sponge-mixin-0.12.4+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[03:13:05] [main/INFO]: Compatibility level set to JAVA_16
+[03:13:05] [main/INFO]: Compatibility level set to JAVA_17
+[03:13:05] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[03:13:05] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[03:13:05] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[03:13:05] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[03:13:05] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[03:13:05] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[03:13:05] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[03:13:05] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
+[03:13:05] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[03:13:05] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[03:13:05] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[03:13:05] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[03:13:05] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[03:13:05] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[03:13:05] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[03:13:05] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
+[03:13:05] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[03:13:05] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
+[03:13:05] [main/INFO]: Disabling com.ishland.c2me.threading.worldgen.mixin
+[03:13:05] [main/INFO]: Loaded configuration file for Lithium: 114 options available, 1 override(s) found
+[03:13:06] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [c2me, krypton]) disables it and children
+[03:13:10] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 3.0.x (Linux x86_64)
+[03:13:10] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[03:13:10] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[03:13:10] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[03:13:11] [main/INFO]: Loaded 7 recipes
+[03:13:11] [main/INFO]: Loaded 1179 advancements
+[03:13:11] [main/INFO]: Applied 0 biome modifications to 0 of 63 new biomes in 1.038 ms
+[03:13:11] [Server thread/INFO]: Starting minecraft server version 1.19.4
+[03:13:11] [Server thread/INFO]: Loading properties
+[03:13:11] [Server thread/INFO]: Default game type: SURVIVAL
+[03:13:11] [Server thread/INFO]: Generating keypair
+[03:13:11] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25565
+[03:13:11] [Server thread/INFO]: Using epoll channel type
+[03:13:11] [Server thread/INFO]: Preparing level "world"
+[03:13:11] [Server thread/INFO]: Enforcing safe world random access
+[03:13:12] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[03:13:13] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[03:13:13] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[03:13:13] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[03:13:14] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[03:13:14] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[03:13:15] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:13:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:13:16] [Worker-Main-12/INFO]: Preparing spawn area: 69%
+[03:13:16] [Server thread/INFO]: Time elapsed: 3976 ms
+[03:13:16] [Server thread/INFO]: Done (4.831s)! For help, type "help"
+[03:13:16] [BlueMap-Plugin-Loading/INFO]: Loading BlueMap...
+[03:13:16] [BlueMap-Plugin-Loading/INFO]: Loading resources...
+[03:13:17] [BlueMap-Plugin-Loading/INFO]: Loading textures...
+[03:13:17] [BlueMap-Plugin-Loading/INFO]: Baking resources...
+[03:13:17] [BlueMap-Plugin-Loading/INFO]: Resources loaded.
+[03:13:17] [BlueMap-Plugin-Loading/INFO]: Loading world '2cef0e12-22f0-411a-b0e1-27d7dece5cbd' (/var/lib/pufferpanel/servers/d1186231/world/DIM-1)...
+[03:13:17] [BlueMap-Plugin-Loading/INFO]: Initializing Storage: 'file' (Type: FILE)
+[03:13:17] [BlueMap-Plugin-Loading/INFO]: Loading map 'Nether'...
+[03:13:17] [BlueMap-Plugin-Loading/INFO]: Loading world 'c43bc051-f412-4372-9fec-4599996c9bfc' (/var/lib/pufferpanel/servers/d1186231/world/DIM1)...
+[03:13:17] [BlueMap-Plugin-Loading/INFO]: Loading map 'End'...
+[03:13:17] [BlueMap-Plugin-Loading/INFO]: Loading world 'fd425667-564c-4dce-ab3c-88ad6fa8bf80' (/var/lib/pufferpanel/servers/d1186231/world)...
+[03:13:17] [BlueMap-Plugin-Loading/INFO]: Loading map 'Overworld'...
+[03:13:17] [BlueMap-Plugin-Loading/INFO]: WebServer bound to: /[0:0:0:0:0:0:0:0]:8100
+[03:13:17] [Thread-15/INFO]: WebServer started.
+[03:13:17] [BlueMap-Plugin-Loading/INFO]: BlueMap loaded!
+[03:22:37] [User Authenticator #1/INFO]: UUID of player ItzJustJake is b0d6c96f-5053-4411-bea4-9f780770e4e3
+[03:22:37] [Server thread/INFO]: ItzJustJake[/127.0.0.1:54754] logged in with entity id 139 at (32.01622174967605, 122.0, 765.0512174066847)
+[03:22:37] [Server thread/INFO]: ItzJustJake joined the game
+[03:24:03] [Server thread/INFO]: ItzJustJake lost connection: Disconnected
+[03:24:03] [Server thread/INFO]: ItzJustJake left the game
